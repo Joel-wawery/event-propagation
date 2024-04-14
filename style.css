@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Set minimum height for full viewport */
+    margin: 0; /* Remove default margin */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sub-list {
+    display: none; /* Sub-lists initially hidden */
+    padding: 10px;
+    margin-left: 20px;
+  }
+  
+  li {
+    cursor: pointer; /* Indicate clickable list items */
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .visible {  /* Class for expanded sub-lists */
+    display: block;
+  }
+  
